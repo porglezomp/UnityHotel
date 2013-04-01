@@ -357,6 +357,8 @@ public class EditorObjExporter : ScriptableObject
         	return;
         }
 		
+		lightmaps
+		
 		
 	}
  

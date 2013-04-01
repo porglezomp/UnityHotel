@@ -76,6 +76,18 @@ ModelImporter:
     100140: 310-312_Hole
     100142: Baseboard
     100144: Trim
+    100146: Baseboard211
+    100148: Baseboard301
+    100150: Baseboard302
+    100152: Baseboard304
+    100154: Baseboard305
+    100156: Baseboard306
+    100158: Baseboard307
+    100160: Baseboard308
+    100162: Baseboard309
+    100164: Baseboard310
+    100166: Baseboard311
+    100168: Baseboard312
     400000: //RootNode
     400002: SketchUp_000
     400004: SketchUp_001
@@ -149,6 +161,18 @@ ModelImporter:
     400140: 310-312_Hole
     400142: Baseboard
     400144: Trim
+    400146: Baseboard211
+    400148: Baseboard301
+    400150: Baseboard302
+    400152: Baseboard304
+    400154: Baseboard305
+    400156: Baseboard306
+    400158: Baseboard307
+    400160: Baseboard308
+    400162: Baseboard309
+    400164: Baseboard310
+    400166: Baseboard311
+    400168: Baseboard312
     2300000: SketchUp_000
     2300002: SketchUp_001
     2300004: SketchUp_002
@@ -221,6 +245,18 @@ ModelImporter:
     2300138: 310-312_Hole
     2300140: Baseboard
     2300142: Trim
+    2300144: Baseboard211
+    2300146: Baseboard301
+    2300148: Baseboard302
+    2300150: Baseboard304
+    2300152: Baseboard305
+    2300154: Baseboard306
+    2300156: Baseboard307
+    2300158: Baseboard308
+    2300160: Baseboard309
+    2300162: Baseboard310
+    2300164: Baseboard311
+    2300166: Baseboard312
     3300000: SketchUp_000
     3300002: SketchUp_001
     3300004: SketchUp_002
@@ -293,6 +329,18 @@ ModelImporter:
     3300138: 310-312_Hole
     3300140: Baseboard
     3300142: Trim
+    3300144: Baseboard211
+    3300146: Baseboard301
+    3300148: Baseboard302
+    3300150: Baseboard304
+    3300152: Baseboard305
+    3300154: Baseboard306
+    3300156: Baseboard307
+    3300158: Baseboard308
+    3300160: Baseboard309
+    3300162: Baseboard310
+    3300164: Baseboard311
+    3300166: Baseboard312
     4300000: SketchUp_011
     4300002: SketchUp_010
     4300004: SketchUp_009
@@ -365,6 +413,18 @@ ModelImporter:
     4300138: 310-312_Hole
     4300140: Baseboard
     4300142: Trim
+    4300144: Baseboard310
+    4300146: Baseboard211
+    4300148: Baseboard307
+    4300150: Baseboard309
+    4300152: Baseboard311
+    4300154: Baseboard305
+    4300156: Baseboard301
+    4300158: Baseboard302
+    4300160: Baseboard304
+    4300162: Baseboard306
+    4300164: Baseboard312
+    4300166: Baseboard308
     6400000: SketchUp_000
     6400002: SketchUp_001
     6400004: SketchUp_002
@@ -437,6 +497,18 @@ ModelImporter:
     6400138: 310-312_Hole
     6400140: Baseboard
     6400142: Trim
+    6400144: Baseboard211
+    6400146: Baseboard301
+    6400148: Baseboard302
+    6400150: Baseboard304
+    6400152: Baseboard305
+    6400154: Baseboard306
+    6400156: Baseboard307
+    6400158: Baseboard308
+    6400160: Baseboard309
+    6400162: Baseboard310
+    6400164: Baseboard311
+    6400166: Baseboard312
     7400000: Default Take
     9500000: //RootNode
   materials:
