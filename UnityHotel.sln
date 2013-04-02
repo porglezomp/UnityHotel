@@ -11,6 +11,8 @@ Project("{B1D52285-81DC-5E5A-8CAF-ABCF168C26E1}") = "UnityHotel", "Assembly-Unit
 EndProject
 Project("{B1D52285-81DC-5E5A-8CAF-ABCF168C26E1}") = "UnityHotel", "Assembly-UnityScript.unityproj", "{FAA189F9-886C-576F-54F0-0A16CF22096C}"
 EndProject
+Project("{B1D52285-81DC-5E5A-8CAF-ABCF168C26E1}") = "UnityHotel", "Assembly-UnityScript-Editor.unityproj", "{15BE008C-2671-857F-C6FF-989395586798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,11 +39,15 @@ Global
 		{FAA189F9-886C-576F-54F0-0A16CF22096C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA189F9-886C-576F-54F0-0A16CF22096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA189F9-886C-576F-54F0-0A16CF22096C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BE008C-2671-857F-C6FF-989395586798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BE008C-2671-857F-C6FF-989395586798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BE008C-2671-857F-C6FF-989395586798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BE008C-2671-857F-C6FF-989395586798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
