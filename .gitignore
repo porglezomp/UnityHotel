@@ -1,6 +1,8 @@
 #NOTE: this will cause your collaborators to re-import assets periodically
 Assembly-*
 *.sln
+*.blend1*
+*.blend2*
 .DS_Store
 Temp/*
 Library/*
