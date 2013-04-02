@@ -146,11 +146,68 @@ public class EditorObjExporter : ScriptableObject
  
  
             		string relativeFile = destinationFile;
- 
+ 					
             		destinationFile = folder + "/" + destinationFile;
  
 					Debug.Log("Copying texture from " + kvp.Value.textureName + " to " + destinationFile);
  
+					try
+					{
+						//Copy the source file
+						File.Copy(kvp.Value.textureName, destinationFile);
+					}
+					catch
+					{
+ 
+					}	
+ 
+ 
+					sw.Write("map_Kd {0}", relativeFile);
+				}
+ 
+				sw.Write("\n\n\n");
+        	}
+        }
+   	}
+	
+	private static void LightmapMaterialsToFile(Dictionary<string, ObjMaterial> materialList, string folder, string filename, int lightIn)
+   	{
+   		using (StreamWriter sw = new StreamWriter(folder + "/" + filename + ".mtl")) 
+        {
+        	foreach( KeyValuePair<string, ObjMaterial> kvp in materialList )
+        	{
+        		sw.Write("\n");
+        		sw.Write("newmtl {0}\n", kvp.Key);
+        		sw.Write("Ka  0.6 0.6 0.6\n");
+				sw.Write("Kd  0.6 0.6 0.6\n");
+				sw.Write("Ks  0.9 0.9 0.9\n");
+				sw.Write("d  1.0\n");
+				sw.Write("Ns  0.0\n");
+				sw.Write("illum 2\n");
+ 
+				if (kvp.Value.textureName != null)
+				{
+					string destinationFile = kvp.Value.textureName;
+					
+					string scenePath = EditorApplication.currentScene;
+					int stripIndex = filename.LastIndexOf(Path.PathSeparator);
+					if (stripIndex >= 0)
+						scenePath = scenePath.Substring(stripIndex + 1).Trim();
+					
+					scenePath = scenePath.Substring (0, scenePath.Length - ".unity".Length) + "/LightmapFar-" + lightIn + ".exr";
+					Debug.Log(kvp.Value.textureName);
+					Debug.Log(scenePath);
+ 
+       				if (stripIndex >= 0)
+            			destinationFile = destinationFile.Substring(stripIndex + 1).Trim();
+ 
+ 
+            		string relativeFile = destinationFile;
+ 
+            		destinationFile = folder + "/" + destinationFile;
+ 
+					//Debug.Log("Copying texture from " + kvp.Value.textureName + " to " + destinationFile);
+					
 					try
 					{
 						//Copy the source file
@@ -194,11 +251,12 @@ public class EditorObjExporter : ScriptableObject
  
         	for (int i = 0; i < mf.Length; i++)
         	{
+				//Debug.Log(materialList);
             	sw.Write(MeshToString(mf[i], materialList));
             }
         }
- 
-        MaterialsToFile(materialList, folder, filename);
+		
+        LightmapMaterialsToFile(materialList, folder, filename, 0);
     }
  
     private static bool CreateTargetFolder()
@@ -289,11 +347,12 @@ public class EditorObjExporter : ScriptableObject
        		}
  
        		string filename = EditorApplication.currentScene + "_" + exportedObjects;
- 
-       		int stripIndex = filename.LastIndexOf('/');//FIXME: Should be Path.PathSeparator
- 
+			
+       		int stripIndex = filename.LastIndexOf('/');
+
        		if (stripIndex >= 0)
             	filename = filename.Substring(stripIndex + 1).Trim();
+			Debug.Log(filename);
  
        		MeshesToFile(mf, targetFolder, filename);
  
@@ -303,8 +362,6 @@ public class EditorObjExporter : ScriptableObject
        	else
        		EditorUtility.DisplayDialog("Objects not exported", "Make sure at least some of your selected objects have mesh filters!", "");
     }
- 
- 
  
     [MenuItem ("Custom/Export/Export each selected to single OBJ")]
     static void ExportEachSelectionToSingle()
@@ -357,9 +414,16 @@ public class EditorObjExporter : ScriptableObject
         	return;
         }
 		
-		lightmaps
+		LightmapData[] lightmaps = LightmapSettings.lightmaps;
 		
 		
 	}
  
+	//string filename = EditorApplication.currentScene + "_" + exportedObjects;
+			
+    //int stripIndex = filename.LastIndexOf(Path.PathSeparator);
+	
+	//if (stripIndex >= 0)
+    //		filename = filename.Substring(stripIndex + 1).Trim();
+	
 }
