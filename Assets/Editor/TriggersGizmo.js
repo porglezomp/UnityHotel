@@ -2,6 +2,7 @@
 
 @DrawGizmo (GizmoType.NotSelected | GizmoType.Pickable)
 static function DrawTriggerArea(trigger : TriggerArea, gizmoType : GizmoType) {
-	Gizmos.color = Color (0.4, 0.5, 1, 0.1);
-	Gizmos.DrawCube (trigger.transform.position, trigger.collider.bounds.size);
+	Gizmos.matrix = trigger.transform.localToWorldMatrix;
+	Gizmos.color = trigger.color;
+	Gizmos.DrawCube (Vector3.zero, Vector3.one);
 }

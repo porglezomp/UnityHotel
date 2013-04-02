@@ -1,5 +1,6 @@
 #NOTE: this will cause your collaborators to re-import assets periodically
 Assembly-*
+*.sln
 .DS_Store
 Temp/*
 Library/*

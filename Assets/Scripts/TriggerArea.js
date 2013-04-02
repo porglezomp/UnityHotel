@@ -7,6 +7,7 @@ var stayAction : TriggerAction;
 var triggerOnce : boolean = true;
 var onlyPlayer : boolean = true;
 var triggerConstantly : boolean = false;
+var color : Color = Color(.4, .5, 1, .4);
 
 private var enterHasBeenTriggered : boolean;
 private var exitHasBeenTriggered : boolean;
@@ -18,29 +19,32 @@ function Start () {
 }
 
 function OnTriggerEnter (other : Collider) {
-	if (!triggerOnce || !enterHasBeenTriggered) {
-		if (onlyPlayer) {
-			if (other.tag == "Player") {
+	if (enterAction) {
+		if (!triggerOnce || !enterHasBeenTriggered) {
+			if (onlyPlayer) {
+				if (other.tag == "Player") {
+					enterAction.Trigger(other);
+				}
+			} else {
 				enterAction.Trigger(other);
 			}
-		} else {
-			enterAction.Trigger(other);
 		}
-	}
-	if (triggerOnce) {
-		enterHasBeenTriggered = true;
+		if (triggerOnce) {
+			enterHasBeenTriggered = true;
+		}
 	}
 }
 
 function OnTriggerExit (other : Collider) {
-	if (!triggerOnce || !exitHasBeenTriggered) {
-		
-		if (onlyPlayer) {
-			if (other.tag == "Player") {
+	if (exitAction) {
+		if (!triggerOnce || !exitHasBeenTriggered) {
+			if (onlyPlayer) {
+				if (other.tag == "Player") {
+					exitAction.Trigger(other);
+				}
+			} else {
 				exitAction.Trigger(other);
 			}
-		} else {
-			exitAction.Trigger(other);
 		}
 	}
 	if (triggerOnce) {
@@ -49,13 +53,15 @@ function OnTriggerExit (other : Collider) {
 }
 
 function OnTriggerStay (other : Collider) {
-	if (triggerConstantly) {
-		if (onlyPlayer) {
-			if (other.tag == "Player") {
+	if (stayAction) {
+		if (triggerConstantly) {
+			if (onlyPlayer) {
+				if (other.tag == "Player") {
+					stayAction.Trigger(other);
+				}
+			} else {
 				stayAction.Trigger(other);
 			}
-		} else {
-			stayAction.Trigger(other);
 		}
 	}
 }
