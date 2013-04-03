@@ -416,7 +416,29 @@ public class EditorObjExporter : ScriptableObject
 		
 		LightmapData[] lightmaps = LightmapSettings.lightmaps;
 		
-		
+		int exportedObjects = 0;
+ 
+       	for (int i = 0; i < transforms.Length; i++)
+       	{
+       		Component[] meshfilter = transforms[i].GetComponentsInChildren(typeof(MeshFilter));
+ 
+       		MeshFilter[] mf = new MeshFilter[meshfilter.Length];
+ 
+       		for (int m = 0; m < meshfilter.Length; m++)
+       		{
+       			exportedObjects++;
+       			mf[m] = (MeshFilter)meshfilter[m];
+       		}
+ 
+       		MeshesToFile(mf, targetFolder, transforms[i].name + "_" + i);
+       	}
+ 
+       	if (exportedObjects > 0)
+       	{
+       		EditorUtility.DisplayDialog("Objects exported", "Exported " + exportedObjects + " objects", "");
+       	}
+       	else
+       		EditorUtility.DisplayDialog("Objects not exported", "Make sure at least some of your selected objects have mesh filters!", "");
 	}
  
 	//string filename = EditorApplication.currentScene + "_" + exportedObjects;
