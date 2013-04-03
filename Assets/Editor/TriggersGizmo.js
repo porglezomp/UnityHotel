@@ -1,5 +1,7 @@
 #pragma strict
 
+static var objectOffset : float = 10;
+
 @DrawGizmo (GizmoType.NotSelected | GizmoType.Pickable)
 static function DrawTriggerArea(trigger : TriggerArea, gizmoType : GizmoType) {
 	Gizmos.color = trigger.color;
@@ -16,12 +18,18 @@ static function DrawTriggerArea(trigger : TriggerArea, gizmoType : GizmoType) {
 	}
 }
 
-@MenuItem ("GameObject/Create Trigger/Box")
+@MenuItem ("GameObject/Create Trigger/Box #%1")
 static function CreateBoxTrigger () {
-	
+	var triggerBox : GameObject  = new GameObject("BoxTrigger");
+	triggerBox.transform.position = SceneView.lastActiveSceneView.pivot;
+	triggerBox.AddComponent.<BoxCollider>();
+	triggerBox.AddComponent.<TriggerArea>();
 }
 
-@MenuItem ("GameObject/Create Trigger/Sphere")
+@MenuItem ("GameObject/Create Trigger/Sphere #%2")
 static function CreateSphereTrigger () {
-	
+	var triggerSphere : GameObject  = new GameObject("SphereTrigger");
+	triggerSphere.transform.position = SceneView.lastActiveSceneView.pivot;
+	triggerSphere.AddComponent.<SphereCollider>();
+	triggerSphere.AddComponent.<TriggerArea>();
 }
