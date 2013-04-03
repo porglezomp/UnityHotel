@@ -1,4 +1,3 @@
-#NOTE: this will cause your collaborators to re-import assets periodically
 Assembly-*
 *.sln
 *.blend1*
