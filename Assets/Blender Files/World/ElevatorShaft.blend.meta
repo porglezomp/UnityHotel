@@ -6,19 +6,80 @@ ModelImporter:
     100000: Elavator_Hall_001
     100002: //RootNode
     100004: Plane
+    100006: Armature
+    100008: Armature_001
+    100010: Cube
+    100012: Door_L
+    100014: Door_L_0
+    100016: Door_R
+    100018: Door_R_0
+    100020: Elavator_Hall_000
+    100022: Elavator_Hall_002
+    100024: Elavator_Hall_003
+    100026: HangingWheel_Large
+    100028: HangingWheel_Small
+    100030: Motor_L
+    100032: Motor_R
+    100034: Motor_Small
+    100036: Root
+    100038: Root_0
+    100040: Wheel_1
+    100042: Wheel_2
+    100044: Wheel_3
+    100046: Wheel_4
+    100048: Wheel_5
+    100050: Wheel_6
     400000: Elavator_Hall_001
     400002: //RootNode
     400004: Plane
+    400006: Armature
+    400008: Armature_001
+    400010: Cube
+    400012: Door_L
+    400014: Door_L_0
+    400016: Door_R
+    400018: Door_R_0
+    400020: Elavator_Hall_000
+    400022: Elavator_Hall_002
+    400024: Elavator_Hall_003
+    400026: HangingWheel_Large
+    400028: HangingWheel_Small
+    400030: Motor_L
+    400032: Motor_R
+    400034: Motor_Small
+    400036: Root
+    400038: Root_0
+    400040: Wheel_1
+    400042: Wheel_2
+    400044: Wheel_3
+    400046: Wheel_4
+    400048: Wheel_5
+    400050: Wheel_6
     2300000: Elavator_Hall_001
     2300002: Plane
+    2300004: Elavator_Hall_000
+    2300006: Elavator_Hall_002
+    2300008: Elavator_Hall_003
     3300000: Elavator_Hall_001
     3300002: Plane
+    3300004: Elavator_Hall_000
+    3300006: Elavator_Hall_002
+    3300008: Elavator_Hall_003
     4300000: Elavator_Hall_001
     4300002: Plane
+    4300004: Elavator_Hall_003
+    4300006: Elavator_Hall_002
+    4300008: Cube
+    4300010: Elavator_Hall_000
     6400000: Elavator_Hall_001
     6400002: Plane
+    6400004: Elavator_Hall_000
+    6400006: Elavator_Hall_002
+    6400008: Elavator_Hall_003
     7400000: Default Take
     9500000: //RootNode
+    13700000: Cube
+    13700002: Elavator_Hall_001
   materials:
     importMaterials: 1
     materialName: 0
