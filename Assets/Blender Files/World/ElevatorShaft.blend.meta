@@ -38,6 +38,11 @@ ModelImporter:
     100064: Overhead_Large
     100066: Overhead_Medium
     100068: Overhead_Small
+    100070: CounterWeight
+    100072: ElavatorHall
+    100074: ElevatorFloor1
+    100076: ElevatorFloor2
+    100078: ElevatorFloor4
     400000: Elavator_Hall_001
     400002: //RootNode
     400004: Plane
@@ -73,16 +78,27 @@ ModelImporter:
     400064: Overhead_Large
     400066: Overhead_Medium
     400068: Overhead_Small
+    400070: CounterWeight
+    400072: ElavatorHall
+    400074: ElevatorFloor1
+    400076: ElevatorFloor2
+    400078: ElevatorFloor4
     2300000: Elavator_Hall_001
     2300002: Plane
     2300004: Elavator_Hall_000
     2300006: Elavator_Hall_002
     2300008: Elavator_Hall_003
+    2300010: ElevatorFloor1
+    2300012: ElevatorFloor2
+    2300014: ElevatorFloor4
     3300000: Elavator_Hall_001
     3300002: Plane
     3300004: Elavator_Hall_000
     3300006: Elavator_Hall_002
     3300008: Elavator_Hall_003
+    3300010: ElevatorFloor1
+    3300012: ElevatorFloor2
+    3300014: ElevatorFloor4
     4300000: Elavator_Hall_001
     4300002: Plane
     4300004: Elavator_Hall_003
@@ -90,16 +106,26 @@ ModelImporter:
     4300008: Cube
     4300010: Elavator_Hall_000
     4300012: Cube_006
+    4300014: ElevatorFloor1
+    4300016: CounterWeight
+    4300018: ElevatorFloor2
+    4300020: ElavatorHall
+    4300022: ElevatorFloor4
     6400000: Elavator_Hall_001
     6400002: Plane
     6400004: Elavator_Hall_000
     6400006: Elavator_Hall_002
     6400008: Elavator_Hall_003
+    6400010: ElevatorFloor1
+    6400012: ElevatorFloor2
+    6400014: ElevatorFloor4
     7400000: Default Take
     9500000: //RootNode
     13700000: Cube
     13700002: Elavator_Hall_001
     13700004: Cube_006
+    13700006: CounterWeight
+    13700008: ElavatorHall
   materials:
     importMaterials: 1
     materialName: 0
