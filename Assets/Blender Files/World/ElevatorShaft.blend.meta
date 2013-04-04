@@ -29,6 +29,15 @@ ModelImporter:
     100046: Wheel_4
     100048: Wheel_5
     100050: Wheel_6
+    100052: Door
+    100054: Elevator
+    100056: Hatch
+    100058: Counterweight
+    100060: Cube_006
+    100062: Overhead_Counter
+    100064: Overhead_Large
+    100066: Overhead_Medium
+    100068: Overhead_Small
     400000: Elavator_Hall_001
     400002: //RootNode
     400004: Plane
@@ -55,6 +64,15 @@ ModelImporter:
     400046: Wheel_4
     400048: Wheel_5
     400050: Wheel_6
+    400052: Door
+    400054: Elevator
+    400056: Hatch
+    400058: Counterweight
+    400060: Cube_006
+    400062: Overhead_Counter
+    400064: Overhead_Large
+    400066: Overhead_Medium
+    400068: Overhead_Small
     2300000: Elavator_Hall_001
     2300002: Plane
     2300004: Elavator_Hall_000
@@ -71,6 +89,7 @@ ModelImporter:
     4300006: Elavator_Hall_002
     4300008: Cube
     4300010: Elavator_Hall_000
+    4300012: Cube_006
     6400000: Elavator_Hall_001
     6400002: Plane
     6400004: Elavator_Hall_000
@@ -80,6 +99,7 @@ ModelImporter:
     9500000: //RootNode
     13700000: Cube
     13700002: Elavator_Hall_001
+    13700004: Cube_006
   materials:
     importMaterials: 1
     materialName: 0
