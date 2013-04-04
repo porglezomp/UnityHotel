@@ -88,6 +88,20 @@ ModelImporter:
     100164: Baseboard310
     100166: Baseboard311
     100168: Baseboard312
+    100170: Baseboard1
+    100172: Baseboard2
+    100174: Baseboard3
+    100176: Baseboard4
+    100178: Baseboard5
+    100180: Baseboard6
+    100182: BaseboardElevator
+    100184: Trim1
+    100186: Trim2
+    100188: Trim3
+    100190: Trim4
+    100192: Trim5
+    100194: Trim6
+    100196: TrimElevator
     400000: //RootNode
     400002: SketchUp_000
     400004: SketchUp_001
@@ -173,6 +187,20 @@ ModelImporter:
     400164: Baseboard310
     400166: Baseboard311
     400168: Baseboard312
+    400170: Baseboard1
+    400172: Baseboard2
+    400174: Baseboard3
+    400176: Baseboard4
+    400178: Baseboard5
+    400180: Baseboard6
+    400182: BaseboardElevator
+    400184: Trim1
+    400186: Trim2
+    400188: Trim3
+    400190: Trim4
+    400192: Trim5
+    400194: Trim6
+    400196: TrimElevator
     2300000: SketchUp_000
     2300002: SketchUp_001
     2300004: SketchUp_002
@@ -257,6 +285,20 @@ ModelImporter:
     2300162: Baseboard310
     2300164: Baseboard311
     2300166: Baseboard312
+    2300168: Baseboard1
+    2300170: Baseboard2
+    2300172: Baseboard3
+    2300174: Baseboard4
+    2300176: Baseboard5
+    2300178: Baseboard6
+    2300180: BaseboardElevator
+    2300182: Trim1
+    2300184: Trim2
+    2300186: Trim3
+    2300188: Trim4
+    2300190: Trim5
+    2300192: Trim6
+    2300194: TrimElevator
     3300000: SketchUp_000
     3300002: SketchUp_001
     3300004: SketchUp_002
@@ -341,6 +383,20 @@ ModelImporter:
     3300162: Baseboard310
     3300164: Baseboard311
     3300166: Baseboard312
+    3300168: Baseboard1
+    3300170: Baseboard2
+    3300172: Baseboard3
+    3300174: Baseboard4
+    3300176: Baseboard5
+    3300178: Baseboard6
+    3300180: BaseboardElevator
+    3300182: Trim1
+    3300184: Trim2
+    3300186: Trim3
+    3300188: Trim4
+    3300190: Trim5
+    3300192: Trim6
+    3300194: TrimElevator
     4300000: SketchUp_011
     4300002: SketchUp_010
     4300004: SketchUp_009
@@ -425,6 +481,20 @@ ModelImporter:
     4300162: Baseboard306
     4300164: Baseboard312
     4300166: Baseboard308
+    4300168: Trim6
+    4300170: Baseboard6
+    4300172: Baseboard3
+    4300174: Trim3
+    4300176: Baseboard4
+    4300178: Trim4
+    4300180: Baseboard5
+    4300182: Trim5
+    4300184: Baseboard1
+    4300186: Trim1
+    4300188: Baseboard2
+    4300190: Trim2
+    4300192: BaseboardElevator
+    4300194: TrimElevator
     6400000: SketchUp_000
     6400002: SketchUp_001
     6400004: SketchUp_002
@@ -509,6 +579,20 @@ ModelImporter:
     6400162: Baseboard310
     6400164: Baseboard311
     6400166: Baseboard312
+    6400168: Baseboard1
+    6400170: Baseboard2
+    6400172: Baseboard3
+    6400174: Baseboard4
+    6400176: Baseboard5
+    6400178: Baseboard6
+    6400180: BaseboardElevator
+    6400182: Trim1
+    6400184: Trim2
+    6400186: Trim3
+    6400188: Trim4
+    6400190: Trim5
+    6400192: Trim6
+    6400194: TrimElevator
     7400000: Default Take
     9500000: //RootNode
   materials:
