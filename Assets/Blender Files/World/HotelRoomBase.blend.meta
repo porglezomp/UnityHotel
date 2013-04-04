@@ -102,6 +102,18 @@ ModelImporter:
     100192: Trim5
     100194: Trim6
     100196: TrimElevator
+    100198: Closet301
+    100200: Closet302
+    100202: Closet304
+    100204: Closet305
+    100206: Closet306
+    100208: Closet307
+    100210: Closet308
+    100212: Closet309
+    100214: Closet310
+    100216: Closet311
+    100218: Closet311_001
+    100220: Closet312
     400000: //RootNode
     400002: SketchUp_000
     400004: SketchUp_001
@@ -201,6 +213,18 @@ ModelImporter:
     400192: Trim5
     400194: Trim6
     400196: TrimElevator
+    400198: Closet301
+    400200: Closet302
+    400202: Closet304
+    400204: Closet305
+    400206: Closet306
+    400208: Closet307
+    400210: Closet308
+    400212: Closet309
+    400214: Closet310
+    400216: Closet311
+    400218: Closet311_001
+    400220: Closet312
     2300000: SketchUp_000
     2300002: SketchUp_001
     2300004: SketchUp_002
@@ -299,6 +323,18 @@ ModelImporter:
     2300190: Trim5
     2300192: Trim6
     2300194: TrimElevator
+    2300196: Closet301
+    2300198: Closet302
+    2300200: Closet304
+    2300202: Closet305
+    2300204: Closet306
+    2300206: Closet307
+    2300208: Closet308
+    2300210: Closet309
+    2300212: Closet310
+    2300214: Closet311
+    2300216: Closet311_001
+    2300218: Closet312
     3300000: SketchUp_000
     3300002: SketchUp_001
     3300004: SketchUp_002
@@ -397,6 +433,18 @@ ModelImporter:
     3300190: Trim5
     3300192: Trim6
     3300194: TrimElevator
+    3300196: Closet301
+    3300198: Closet302
+    3300200: Closet304
+    3300202: Closet305
+    3300204: Closet306
+    3300206: Closet307
+    3300208: Closet308
+    3300210: Closet309
+    3300212: Closet310
+    3300214: Closet311
+    3300216: Closet311_001
+    3300218: Closet312
     4300000: SketchUp_011
     4300002: SketchUp_010
     4300004: SketchUp_009
@@ -495,6 +543,18 @@ ModelImporter:
     4300190: Trim2
     4300192: BaseboardElevator
     4300194: TrimElevator
+    4300196: Closet304
+    4300198: Closet311_001
+    4300200: Closet307
+    4300202: Closet309
+    4300204: Closet311
+    4300206: Closet305
+    4300208: Closet301
+    4300210: Closet302
+    4300212: Closet306
+    4300214: Closet312
+    4300216: Closet310
+    4300218: Closet308
     6400000: SketchUp_000
     6400002: SketchUp_001
     6400004: SketchUp_002
@@ -593,6 +653,18 @@ ModelImporter:
     6400190: Trim5
     6400192: Trim6
     6400194: TrimElevator
+    6400196: Closet301
+    6400198: Closet302
+    6400200: Closet304
+    6400202: Closet305
+    6400204: Closet306
+    6400206: Closet307
+    6400208: Closet308
+    6400210: Closet309
+    6400212: Closet310
+    6400214: Closet311
+    6400216: Closet311_001
+    6400218: Closet312
     7400000: Default Take
     9500000: //RootNode
   materials:
