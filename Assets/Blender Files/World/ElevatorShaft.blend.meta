@@ -43,6 +43,7 @@ ModelImporter:
     100074: ElevatorFloor1
     100076: ElevatorFloor2
     100078: ElevatorFloor4
+    100080: ElevatorRig
     400000: Elavator_Hall_001
     400002: //RootNode
     400004: Plane
@@ -83,6 +84,7 @@ ModelImporter:
     400074: ElevatorFloor1
     400076: ElevatorFloor2
     400078: ElevatorFloor4
+    400080: ElevatorRig
     2300000: Elavator_Hall_001
     2300002: Plane
     2300004: Elavator_Hall_000
@@ -111,6 +113,7 @@ ModelImporter:
     4300018: ElevatorFloor2
     4300020: ElavatorHall
     4300022: ElevatorFloor4
+    4300024: Elevator
     6400000: Elavator_Hall_001
     6400002: Plane
     6400004: Elavator_Hall_000
@@ -126,6 +129,7 @@ ModelImporter:
     13700004: Cube_006
     13700006: CounterWeight
     13700008: ElavatorHall
+    13700010: Elevator
   materials:
     importMaterials: 1
     materialName: 0
