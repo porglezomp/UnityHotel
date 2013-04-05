@@ -1,8 +1,8 @@
 #pragma strict
 
-private var nodes : CubemapNode[];
-private var nodeIndex : int = 0;
-private var res : Resolution;
+var nodes : CubemapNode[];
+var nodeIndex : int = 0;
+var res : Resolution;
 
 function Start () {
 	Camera.main.enabled = false;

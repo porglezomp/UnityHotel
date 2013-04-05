@@ -12,7 +12,7 @@ function Update () {
 	if (frame >= 0 && frame < 6) {
 		transform.rotation = Quaternion.LookRotation(directions[frame], Vector3.up);
 		camera.Render();
-		var screenshotFilename = nodeName + names[frame];
+		var screenshotFilename = nodeName + names[frame] + ".png";
 		print(screenshotFilename);
 		Application.CaptureScreenshot(screenshotFilename);
 		frame++;
