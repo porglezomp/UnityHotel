@@ -2,7 +2,7 @@
 
 class CubemapEditor extends EditorWindow {
 
-var groupEnabled : boolean;
+var useBaker : boolean;
 var baker : CubemapBaker;
 var bakerObject : GameObject;
 private var lastState : boolean;
@@ -25,15 +25,16 @@ static function AddPoint () {
 }
 
 function OnGUI() {
-	groupEnabled = EditorGUILayout.BeginToggleGroup ("Bake Lightprobes", groupEnabled);
-		if (groupEnabled == true && lastState == false) {
-			bakerObject = new GameObject("_CubemapBaker_");
+	useBaker = EditorGUILayout.Toggle ("Bake Lightprobes", useBaker);
+	if (useBaker && !lastState) {
+		if (bakerObject == null) {
+			bakerObject = new GameObject("__CubemapBaker__");
 			baker = bakerObject.AddComponent.<CubemapBaker>();
-		} else if (groupEnabled == false && lastState == true) {
-			DestroyImmediate(bakerObject);
 		}
-	EditorGUILayout.EndToggleGroup ();
-	lastState = groupEnabled;
+	} else if (!useBaker && lastState) {
+		DestroyImmediate(bakerObject);
+	}
+	lastState = useBaker;
 }
 
 }
