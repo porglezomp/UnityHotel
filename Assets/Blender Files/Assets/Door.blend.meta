@@ -30,7 +30,9 @@ ModelImporter:
     400022: Bone_002
     400024: Door_0
     2300000: Cube
+    2300002: Door
     3300000: Cube
+    3300002: Door
     4300000: Circle_002
     4300002: Cube_001
     4300004: Circle

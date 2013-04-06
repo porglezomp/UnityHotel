@@ -5,6 +5,8 @@ var nodeIndex : int = 0;
 var res : Resolution;
 
 function Start () {
+	Application.CaptureScreenshot("Cubemap/USELESS");
+	Camera.main.gameObject.GetComponent.<Crosshair>().enabled = false;
 	Camera.main.enabled = false;
 	Screen.SetResolution (512, 512, false);
 	nodes = FindObjectsOfType(CubemapNode) as CubemapNode[];
@@ -21,7 +23,6 @@ function Update () {
 			} else {
 				nodes[nodeIndex].Bake();
 			}
-			nodeIndex ++;
 		}
 	} else if (nodeIndex == -1) {
 		Screen.SetResolution (res.width, res.height, false);

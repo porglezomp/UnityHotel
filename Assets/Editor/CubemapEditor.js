@@ -27,12 +27,12 @@ static function AddPoint () {
 function OnGUI() {
 	useBaker = EditorGUILayout.Toggle ("Bake Lightprobes", useBaker);
 	if (useBaker && !lastState) {
-		if (bakerObject == null) {
+		if (!GameObject.Find("__CubemapBaker__")) {
 			bakerObject = new GameObject("__CubemapBaker__");
 			baker = bakerObject.AddComponent.<CubemapBaker>();
 		}
 	} else if (!useBaker && lastState) {
-		DestroyImmediate(bakerObject);
+		DestroyImmediate(GameObject.Find("__CubemapBaker__"));
 	}
 	lastState = useBaker;
 }
